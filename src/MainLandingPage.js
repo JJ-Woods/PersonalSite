@@ -94,10 +94,6 @@ export default ({
     }
   };
 
-  const noOfLandingPages = Object.keys(landingPages).length;
-  const noOfInnerPages = Object.keys(innerPages).length;
-  const noOfComponentBlocks = Object.values(blocks).reduce((acc, block) => acc + Object.keys(block.elements).length, 0);
-
   features = features || [
     `Technical Delivery Manager`,
     `Scuba Instructor`,
