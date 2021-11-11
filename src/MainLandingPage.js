@@ -19,7 +19,7 @@ import { ReactComponent as HandleIcon } from "images/handle-icon.svg";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-3-icon.svg";
 
 import heroScreenshotImageSrc from "images/demo/MainLandingPageHero.png";
-import logo from "images/logo.svg";
+import logo from "images/jwLogoBlack.svg";
 import useInView from "@owaiswiz/use-in-view";
 import MiniCenteredFooter from "components/footers/MiniCenteredFooter";
 
@@ -110,7 +110,6 @@ export default ({
           <NavRow>
             <LogoLink href="/">
               <img src={logo} alt="" />
-              Jamie Woods
             </LogoLink>
             <div tw="flex flex-wrap justify-center lg:justify-end items-center -mr-12">
               <NavLink href="#">
@@ -145,7 +144,7 @@ export default ({
               </FeatureList>
             </TextColumn>
             <ImageColumn>
-              <ImageContainer>
+            <ImageContainer>
                 <Image src={heroScreenshotImageSrc} />
               </ImageContainer>
             </ImageColumn>

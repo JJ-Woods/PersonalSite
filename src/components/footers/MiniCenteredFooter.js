@@ -2,7 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import {Container as ContainerBase } from "components/misc/Layouts.js"
-import logo from "../../images/logo.svg";
+import logo from "../../images/jwLogoWhite.svg";
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100 -mx-8 -mb-8`
 const Content = tw.div`max-w-screen-xl mx-auto py-10 lg:py-10`;
@@ -10,8 +10,7 @@ const Content = tw.div`max-w-screen-xl mx-auto py-10 lg:py-10`;
 const Row = tw.div`flex items-center justify-center flex-col px-8`
 
 const LogoContainer = tw.div`flex items-center justify-center md:justify-start`;
-const LogoImg = tw.img`w-8`;
-const LogoText = tw.h5`ml-2 text-2xl font-black tracking-wider`;
+const LogoImg = tw.img`w-32`;
 
 const LinksContainer = tw.div`mt-4 font-medium flex flex-wrap justify-center items-center flex-col sm:flex-row`
 const Link = tw.a`border-b-2 border-transparent hocus:text-gray-300 hocus:border-gray-300 pb-1 transition duration-300 mt-2 mx-4`;
@@ -24,7 +23,6 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>Jamie Woods</LogoText>
           </LogoContainer>
           <LinksContainer>
             <Link href="#">Home</Link>
