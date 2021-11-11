@@ -5,7 +5,7 @@ import {Container as ContainerBase } from "components/misc/Layouts.js"
 import logo from "../../images/jwLogoWhite.svg";
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100 -mx-8 -mb-8`
-const Content = tw.div`max-w-screen-xl mx-auto py-10 lg:py-10`;
+const Content = tw.div`max-w-screen-xl mx-auto py-10 lg:py-5`;
 
 const Row = tw.div`flex items-center justify-center flex-col px-8`
 
